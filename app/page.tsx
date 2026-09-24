@@ -72,7 +72,7 @@ export default function Page() {
         <div className="eyebrow">Branding · Dirección creativa · Consultorías estratégicas</div>
         <div className="hero-copy">
           <p className="hero-kicker">SOMOS</p>
-          <h1>Popi<span>*</span><br />diseño &<br />creatividad</h1>
+          <h1 aria-label="Popi, diseño y creatividad"><span className="title-line title-line-one">Popi<span className="title-star">*</span></span><span className="title-line">diseño &amp;</span><span className="title-line title-line-three">creatividad</span></h1>
           <p className="hero-description">Popi Studio nace para hacer visible lo que todavía no se ve. Pensamos cada marca de forma integral: concepto, sistema visual, criterio comunicacional y dirección creativa.<br /><strong>Damos forma a lo invisible para hacerlo inolvidable.</strong></p>
         </div>
         <div className="hero-meta">
