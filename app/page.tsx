@@ -1,6 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { ArrowUpRight, Menu, MoveUpRight } from 'lucide-react'
+import { ThemeToggle } from '@/components/theme-toggle'
 
 export const dynamic = 'force-dynamic'
 
@@ -59,7 +60,10 @@ export default function Page() {
             <a href="#portfolio">Portfolio</a>
             <a href="#contacto">Contacto</a>
           </div>
-          <a className="nav-cta" href="#contacto"><span>●</span> Empecemos algo grande</a>
+          <div className="nav-tools">
+            <ThemeToggle />
+            <a className="nav-cta" href="#contacto"><span>●</span> Empecemos algo grande</a>
+          </div>
           <button className="menu-button" type="button" aria-label="Abrir menú"><Menu size={19} strokeWidth={1.5} /></button>
         </nav>
       </header>
