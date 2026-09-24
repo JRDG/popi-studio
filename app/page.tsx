@@ -100,4 +100,3 @@ export default function Page() {
 
 export { getResourceImages }
 
-export const metadata = undefined
