@@ -32,7 +32,8 @@ a { color: inherit; text-decoration: none; }
   backdrop-filter: blur(12px);
 }
 .nav-shell { display:flex; align-items:center; justify-content:space-between; gap:24px; max-width:1440px; margin:auto; padding:18px 30px; }
-.brand, .footer-brand { font-size: 29px; font-weight: 900; letter-spacing:-.12em; line-height:1; }
+.brand { font-size: 34px; font-weight: 900; letter-spacing:-.12em; line-height:1; }
+.footer-brand { font-size: 29px; font-weight: 900; letter-spacing:-.12em; line-height:1; }
 .brand span, .footer-brand span, .title-star, h2 span { color: var(--coral); }
 .desktop-nav { display:flex; gap:28px; font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
 .desktop-nav a:hover, .footer a:hover { opacity:.55; }
